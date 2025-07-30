@@ -2,7 +2,7 @@
 Python function to obtain weather parameters using Visual Crossing API without additional sensors
 
 
-# Repository description
+## Repository description
 
 -	CALL_CLASS and RADIATION_CLASS are two class scripts, which account for the creation of 'call' class objects and 'radiation' class objects. The methods defined within them are responsible for handling API requests, managing response data, and formatting it in different ways. 
 
@@ -12,12 +12,12 @@ Python function to obtain weather parameters using Visual Crossing API without a
 -	
 -	MAIN script example on the use of WEATHER_DATA *****
 
-# DEPENDENCIES
+## Dependencies
 from weather_data_function import weather_data
 
 Required libraries: pandas, pickle, datetime, csv, math', requests, os
 
-# INPUT ARGUMENTS
+## Input arguments
 -  	lat : latitude of the location, in degrees
 -  	lon : longitude of the location, in degrees
 -  	UTC : UTC offset of the location (difference from UTC time), in hours
@@ -28,7 +28,7 @@ lat = 43.3314059  # Leioa, University of the Basque Country
 lon = -2.9706058
 UTC = 2
 
-# FUNCTION CALL
+## Usage
 ```python
 call_df = weather_data(lat, lon, UTC, api_key)
 ```
@@ -38,3 +38,19 @@ OUTPUT example:
    Year  Month  Day  Hour  Minute  GHI(W/m2)   DNI(W/m2)   DHI(W/m2)  Tdry(deg C)  RH(%)  Wspd(m/s)  Wdir(deg)  Pres(mBar)  PrecipAccum(mm)
 0  2025      5   23    12       0      440.0  103.834708  336.165292        18.15   66.3        4.2      310.0      1023.0              0.0
 ```
+
+## Citation
+
+If you use this project in your research, please cite:
+
+```bibtex
+@inproceedings{ortega2020photovoltaic,
+  title={Photovoltaic modules self testing using M3S in an outdoor system},
+  author={Ortega, Eneko and Aranguren, Gerardo and Jimeno, Juan Carlos},
+  booktitle={2020 47th IEEE Photovoltaic Specialists Conference (PVSC)},
+  pages={1035--1041},
+  year={2020},
+  organization={IEEE}
+}
+```
+

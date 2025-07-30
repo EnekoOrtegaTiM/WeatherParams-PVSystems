@@ -2,7 +2,7 @@
 Python function to obtain weather parameters using Visual Crossing API without additional sensors
 
 
-**** Repository description ****
+# Repository description
 
 -	CALL_CLASS and RADIATION_CLASS are two class scripts, which account for the creation of 'call' class objects and 'radiation' class objects. The methods defined within them are responsible for handling API requests, managing response data, and formatting it in different ways. 
 

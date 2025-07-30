@@ -15,7 +15,7 @@ Python function to obtain weather parameters using Visual Crossing API without a
 # DEPENDENCIES
 from weather_data_function import weather_data
 
-# Required libraries: pandas, pickle, datetime, csv, math', requests, os
+Required libraries: pandas, pickle, datetime, csv, math', requests, os
 
 # INPUT ARGUMENTS
 -  	lat : latitude of the location, in degrees
@@ -29,12 +29,12 @@ lon = -2.9706058
 UTC = 2
 
 # FUNCTION CALL
+```python
 call_df = weather_data(lat, lon, UTC, api_key)
-
-
-
-***** OUTPUT example *****
+```
+OUTPUT example:
+```python
 [1 rows x 14 columns]
    Year  Month  Day  Hour  Minute  GHI(W/m2)   DNI(W/m2)   DHI(W/m2)  Tdry(deg C)  RH(%)  Wspd(m/s)  Wdir(deg)  Pres(mBar)  PrecipAccum(mm)
 0  2025      5   23    12       0      440.0  103.834708  336.165292        18.15   66.3        4.2      310.0      1023.0              0.0
-
+```

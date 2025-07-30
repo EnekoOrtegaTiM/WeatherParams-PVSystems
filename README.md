@@ -9,25 +9,26 @@ Python function to obtain weather parameters using Visual Crossing API without a
 -  	WEATHER_DATA is a function that takes the latitude ('lat'), longitude ('lon'), and UTC timezone offset ('UTC') values for a given location, along with a Visual Crossing Weather user API key ('api_key'). It returns a DataFrame containing a selection of meteorological parameters measured in real time, provided by the "Current Conditions Weather API".
 
 -	USER_PROGRAM is a executable script which includes an example of the applications of the software tool beyond its primary function in WEATHER_DATA, whose usage is detailed below.
+-	
+-	MAIN script example on the use of WEATHER_DATA *****
 
-***** MAIN script example on the use of WEATHER_DATA *****
-
-# ===== DEPENDENCIES ====
+# DEPENDENCIES
 from weather_data_function import weather_data
+
 # Required libraries: pandas, pickle, datetime, csv, math', requests, os
 
-# ===== INPUT ARGUMENTS =====
-#   lat : latitude of the location, in degrees
-#   lon : longitude of the location, in degrees
-#   UTC : UTC offset of the location (difference from UTC time), in hours
-#   api_key : API KEY from VC
+# INPUT ARGUMENTS
+-  	lat : latitude of the location, in degrees
+-  	lon : longitude of the location, in degrees
+-  	UTC : UTC offset of the location (difference from UTC time), in hours
+-  	api_key : API KEY from VC
 
 api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXX'
 lat = 43.3314059  # Leioa, University of the Basque Country
 lon = -2.9706058
 UTC = 2
 
-# ===== FUNCTION CALL =====
+# FUNCTION CALL
 call_df = weather_data(lat, lon, UTC, api_key)
 
 

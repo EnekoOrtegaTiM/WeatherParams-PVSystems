@@ -44,12 +44,12 @@ OUTPUT example:
 If you use this project in your research, please cite:
 
 ```bibtex
-@inproceedings{ortega2020photovoltaic,
-  title={Photovoltaic modules self testing using M3S in an outdoor system},
-  author={Ortega, Eneko and Aranguren, Gerardo and Jimeno, Juan Carlos},
-  booktitle={2020 47th IEEE Photovoltaic Specialists Conference (PVSC)},
-  pages={1035--1041},
-  year={2020},
+@inproceedings{rodriguez2025software,
+  title={Software tool for weather parameters acquisition during photovoltaic systems monitoring},
+  author={Rodriguez, Sonia Maria and Chicote, Beatriz and Ortega, Eneko and Aranguren, Gerardo and Jimeno, Juan Carlos},
+  booktitle={2025 IEEE 53rd Photovoltaic Specialists Conference (PVSC)},
+  pages={0621--0626},
+  year={2025},
   organization={IEEE}
 }
 ```

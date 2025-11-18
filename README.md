@@ -21,7 +21,7 @@ Required libraries: pandas, pickle, datetime, csv, math', requests, os
 -  	lat : latitude of the location, in degrees
 -  	lon : longitude of the location, in degrees
 -  	UTC : UTC offset of the location (difference from UTC time), in hours
--  	api_key : API KEY from VC
+-  	api_key : API KEY from Visual Crossing. It can be generated when registering in Visual Crossing web page (https://www.visualcrossing.com/sign-up/)
 
 api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXX'
 lat = 43.3314059  # Leioa, University of the Basque Country
